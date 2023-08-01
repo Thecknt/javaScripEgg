@@ -1,0 +1,64 @@
+.enunciado{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding-left: 50px;
+    color: rgb(51, 15, 207);
+}
+.textArea{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    padding-left: 80px;
+}
+
+.instruccion{
+    display: flex;
+    align-items: center;
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-bottom: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: blue;
+    }
+    
+    .submit{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 70px;
+        background-color: rgba(32, 7, 219, 0.666);
+        color: white;
+        border-radius: 5px;
+    }
+    
+    #valor{
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        margin-left: 25px;
+       margin-top: 10px;
+    place-content: center;
+    }
+    .form{
+        width: 100%;
+        border-radius: 8px;
+        padding: 5px;
+        border: inherit;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .7);
+        transition: all .35s ease-in;
+    }
+
+    .mostrarResultado{
+        border-radius: 8px;
+        margin-top: 25px;
+        margin-left: 80px;
+        width: 24%;
+        align-items: center;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+        transition: all .35s ease-in;
+        color: rgb(248, 142, 13);
+        border-color: black 1px solid;
+        padding-left: 20px;
+    }

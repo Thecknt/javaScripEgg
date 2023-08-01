@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ejercicio2.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <section class="ejercicio2">  
+        <h1 class="enunciado"> 2) Conocido el número en matemática PI π, pedir al usuario que ingrese el valor del radio
+            de una circunferencia y calcular y mostrar por pantalla el área y perímetro. Recuerde que
+            para calcular el área y el perímetro se utilizan las siguientes fórmulas:
+            <br>
+            area = PI * radio2
+            <br>
+            perimetro = 2 * PI * radio</h1>
+    </section>
+    <div class="textArea">
+        <form action="#" id="form" class="form">
+          <label for="pi">
+            <span class="instruccion"> Ingrese el valor del radio
+                <br>
+                de una circunferencia </span>
+            <input
+              type="number" 
+              id="valor"
+              placeholder=" Inserte el numero aqui " required
+            />
+          </label>
+          <button type="submit" class="submit">Resultado</button>
+        </form>
+      </div>
+<section class="mostrarResultado" id="mostrarResultado">
+    <h1 class="resultado" id="resultado"></h1>
+</section>
+    <script src="js/ejercicio2.js"></script>
+</body>
+</html>

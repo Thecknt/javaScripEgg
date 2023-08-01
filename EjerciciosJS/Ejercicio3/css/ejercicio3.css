@@ -1,0 +1,56 @@
+body{
+    background-image: url(../images/pizarra.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.statement{
+    margin-left: 90px;
+    margin-top: 90px;
+    display: flex;
+    align-items: start;
+    color: rgb(249, 249, 249);
+}
+
+.form{
+display: flex;
+align-items: start;
+align-items: center;
+margin-left: 90px;
+font-size: 20px;
+color: white;
+}
+
+#valueNumber{
+    margin: 10px 0px 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 20px;
+}
+
+.submit{
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+}
+
+.resolve{
+    margin-left: 80px;
+    color: white;
+    font-size: 30px;
+}
+
+.adult{
+    display: flex;
+    align-items: start;
+    width: 30%;
+    height: 60%;
+}
+
+.minor{
+    display: flex;
+    align-items: start;
+    width: 30%;
+    height: 60%;
+}
