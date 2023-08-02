@@ -1,0 +1,59 @@
+body {
+  background-image: url(../images/fondo3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.statement {
+    font-size: small;
+    background-color: rgba(250, 235, 215, 0.333);
+  display: flex;
+  align-items: start;
+  width: 50%;
+  margin-left: 80px;
+  margin-top: 50px;
+  border: inherit;
+  padding-left: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  transition: all 0.35s ease-in;
+  border-radius: 15px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.333);
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  transition: all 0.35s ease-in;
+  width: 50%;
+  margin-left: 80px;
+  border-radius: 15px;
+}
+
+.letter{
+border-radius: 15px;
+}
+
+.submit{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.showResult{
+    background-color: rgba(250, 235, 215, 0.333);
+    margin-top: 40px;
+    margin-left: 80px;
+    padding-left: 10px;
+    background-color: 0 0 5px rgb(186, 176, 176);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    transition: all 0.35s ease-in;
+    width: 50%;
+    border-radius: 15px;
+}

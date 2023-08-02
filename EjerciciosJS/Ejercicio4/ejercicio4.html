@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/ejercicio4.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="statement">
+      <h1>
+        Realiza un programa que sólo permita introducir los caracteres ‘S’ y
+        ‘N’. Si el usuario
+        <br />
+        ingresa alguno de esos dos caracteres se deberá de imprimir un mensaje
+        por pantalla
+        <br />
+        que diga “CORRECTO”, en caso contrario, se deberá imprimir “INCORRECTO”.
+      </h1>
+    </section>
+    <section class="form">
+      <div class="spaces">
+        <form action="#" class="Form" id="Form">
+          <label for="letter">
+            <span class="instrucction"> <strong> Ingrese una letra </strong> </span>
+            <input
+            class="letter"
+              type="text"
+              id="letter"
+              placeholder=" Inserte la letra Aqui "
+              required
+            />
+          </label>
+          <button type="submit" class="submit">Resultado</button>
+        </form>
+      </div>
+    </section>
+    <section class="showResult" id="showResult">
+      <h1 class="result" id="result"></h1>
+    </section>
+    <script src="js/ejercicio4.js"></script>
+  </body>
+</html>

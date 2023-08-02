@@ -1,0 +1,79 @@
+body {
+  background-image: url(../images/calculadora.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.statement {
+  background-color: rgba(250, 235, 215, 0.368);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  font-size: smaller;
+  margin-left: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  transition: all 0.35s ease-in;
+  border-radius: 15px;
+}
+
+.instruction {
+  display: flex;
+  text-align: center;
+  padding-bottom: 18px;
+  padding-right: 44px;
+  justify-content: center;
+}
+
+select {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  margin-right: 52px;
+  border-color: blue;
+}
+
+.operations {
+  display: flex;
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.333);
+  margin-top: 22px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  transition: all 0.35s ease-in;
+  width: 17%;
+  margin-left: 80px;
+  border-radius: 15px;
+}
+
+.Form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.numbers {
+  border-radius: 15px;
+}
+
+.showResult {
+  background-color: rgba(250, 235, 215, 0.333);
+  margin-top: 24px;
+  margin-left: 80px;
+  padding-left: 10px;
+  background-color: 0 0 5px rgb(186, 176, 176);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  transition: all 0.35s ease-in;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.submit {
+  border-radius: 10px;
+  background-color: rgba(40, 40, 237, 0.68);
+  color: white;
+  margin-right: 56px;
+}

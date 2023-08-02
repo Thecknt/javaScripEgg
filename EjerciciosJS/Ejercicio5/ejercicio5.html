@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ejercicio5.css">
+    <title>ejercicio 5</title>
+</head>
+<body>
+    <section class="statement">
+        <h1>Construir un programa que simule un menú de opciones para realizar las cuatro
+            operaciones aritméticas básicas (suma, resta, multiplicación y división) con dos valores
+            numéricos enteros. El usuario, además, debe especificar la operación con el primer
+            carácter de la operación que desea realizar: ‘S' o ‘s’ para la suma, ‘R’ o ‘r’ para la resta, ‘M’
+            o ‘m’ para la multiplicación y ‘D’ o ‘d’ para la división.</h1>
+    </section>
+    <section class="operations">
+        <div class="spaces">
+            <form action="#" class="Form" id="Form">
+              <label for="numbers">
+                <span class="instruction"> <strong> Ingrese un numero </strong> </span>
+                <input
+                class="numbers"
+                  type="number"
+                  id="number1"
+                  placeholder=" Inserte un numero "
+                  required
+                />
+                <input
+                class="numbers"
+                  type="number"
+                  id="number2"
+                  placeholder=" Inserte un numero "
+                  required
+                />
+              </label>
+              <select name="select" id="select">
+                <option value=1 id="Addition"> Sumar </option>
+                <option value=2 id="subtract"> Restar </option>
+                <option value=3 id="multiply"> Multiplicar </option>
+                <option value=4 id="divided"> Dividir </option>
+              </select>
+              <button type="submit" class="submit">Resultado</button>
+            </form>
+          </div>
+    </section>
+
+    <section class="showResult" id="showResult">
+<h1 class="result" id="result"></h1>
+
+    </section>
+    <script src="js/ejercicio5.js"></script>
+</body>
+</html>
