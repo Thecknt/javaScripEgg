@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/ejercicio6.css" />
+    <title>Ejercicio 6</title>
+  </head>
+  <body>
+    <section class="statement" id="statement" style="display: flex">
+      <h1>
+        Realizar un programa que, dado un número entero, visualice en pantalla
+        si es par o impar. En caso de que el valor ingresado sea 0, se debe
+        mostrar “el número no es par ni impar”.
+      </h1>
+    </section>
+    <section class="parImpar" id="parImpar" style="display: flex;">
+      <div class="spaces">
+        <form action="#" class="Form" id="Form" style="display: flex">
+          <label for="age">
+            <span class="instrucction">
+              vamos a determinar si el numero ingresado es 
+              <br>
+              PAR o IMPAR
+            </span>
+            <input
+              type="number"
+              id="number"
+              placeholder=" Inserte un numero aqui "
+              required
+            />
+          </label>
+          <button type="submit" class="submit">Resultado</button>
+        </form>
+      </div>
+    </section>
+    <section class="loader" Style="display:none;" id="loader">
+      <img src="images/thinking.gif" alt="" id="loader" />
+    </section>
+    <section class="showResult" id="showResult" style="display: none;">
+      <h1 class="result" id="result"></h1>
+    </section>
+    <script src="js/ejercicio6.js"></script>
+  </body>
+</html>
