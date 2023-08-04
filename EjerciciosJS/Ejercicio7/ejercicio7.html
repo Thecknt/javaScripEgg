@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ejercicio7.css">
+    <title>ejercicio 7</title>
+</head>
+<body>
+    <section class="statement">
+        <h1>Escriba un programa en el cual se ingrese un valor límite positivo,
+            <br> y a continuación solicite números al usuario
+            <br>
+             hasta que la suma de los números introducidos supere el
+            límite inicial.</h1>
+    </section>
+<section class="exercise" id="exercise">
+    <form action="#" class="Form"
+    id="Form">
+    <div class="instruction" id="instruction" style="display: flex;">
+        <span>
+        <h1>Ingrese un numero Limite</h1> 
+        </span>
+        <input type="number"
+          id="numberLimit" 
+          placeholder="Inserte el numero final aqui"
+          required/>
+          <button type="button" class="submit" id="submit"> continuar</button>  
+    </div> 
+        
+        <div class="numberToAdd" style="display:none;" id="numberToAdd">
+            <span class="instrucction" >
+            <h1 class="instrucction2" id="message"></h1> 
+            </span>
+            <input type="number"
+              id="optionalNumber" 
+              placeholder=" Inserte un nuevo numero aqui "/>
+              <button type="button" class="submit" id="submit2"> sumar</button>
+        </div> 
+      
+</form>
+</section>
+<section class="final" id="final" style="display: none;">
+    <h1 class="finalMessage" id="finalMessage"></h1>
+</section>
+    <script src="js/ejercicio7.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+    background-image: url(../images/limit.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.statement{
+    background-color: rgba(250, 235, 215, 0.368);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  font-size: smaller;
+  margin-left: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  transition: all 0.35s ease-in;
+  border-radius: 15px;
+}
+
+.instruction {
+    flex-direction: column;
+    text-align: center;
+    padding-right: 44px;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: -8px;
+    margin-left: 82px;
+  }
+
+  .Form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .exercise {
+    display: flex;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.333);
+    margin-top: 22px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    transition: all 0.35s ease-in;
+    width: 40%;
+    margin-left: 52px;
+    border-radius: 15px;
+  }
+
+  input{
+    border-radius: 15px;
+    margin-top: 39px;
+    margin-bottom: 6px;
+    padding: 12px;
+}
+
+#submit{
+    border-radius: 15px;
+    margin-top: 39px;
+    margin-bottom: 6px; 
+    padding: 12px;
+    background-color: rgb(171, 226, 43);
+}
+
+.numberToAdd{
+    flex-direction: column;
+    text-align: center;
+    padding-right: 44px;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: -8px;
+    margin-left: 82px;
+}
+
+#submit2{
+    border-radius: 15px;
+    margin-top: 39px;
+    margin-bottom: 6px; 
+    padding: 12px;
+    background-color: rgb(171, 226, 43);
+}
+
+.final{
+    background-color: rgba(223, 250, 215, 0.368);
+    padding: 15px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    transition: all 0.35s ease-in;
+    border-radius: 15px; 
+}
