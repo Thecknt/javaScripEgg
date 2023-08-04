@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ejercicio9.css">
+    <title>Ejercicio 9</title>
+</head>
+<body>
+    <section class="statement">
+        <h1>Realizar un programa que pida una frase y el programa deberá mostrar la frase con un 
+            espacio entre cada letra. La frase se mostrara así: H o l a. Nota: recordar el 
+            funcionamiento de la función Substring().</h1>
+    </section>
+    <section class="phrase" id="phrase" style="display: flex;">
+        <div class="spaces">
+          <form action="#" class="Form" id="Form" style="display: flex">
+            <label for="phrase">
+              <span class="instrucction">
+                <strong>Ingrese una Palabra por favor</strong>
+              </span>
+              <input
+                type="text"
+                id="text"
+                placeholder=" Inserte una frase aqui "
+                required
+              />
+            </label>
+            <button type="submit" class="submit"> Ingresar Palabra </button>
+          </form>
+        </div>
+      </section>
+      <section class="showFinal" id="showFinal" style="display: none;">
+        <h1 class="resolve" id="resolve"></h1>
+    </section>
+    <script src="js/ejercicio9.js"></script>
+</body>
+</html>

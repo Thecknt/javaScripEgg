@@ -1,0 +1,80 @@
+body{
+    background-image: url(../images/letters.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.statement {
+    background-color: rgba(250, 235, 215, 0.658);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    font-size: smaller;
+    margin-left: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    transition: all 0.35s ease-in;
+    border-radius: 15px;
+  }
+
+  .instruction {
+    display: flex;
+    text-align: center;
+    padding-bottom: 18px;
+    padding-right: 44px;
+    justify-content: center;
+  }
+  
+  select {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    margin-right: 52px;
+    border-color: blue;
+  }
+  
+  .phrase {
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.603);
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    width: 20%;
+    margin-left: 80px;
+    border-radius: 15px;
+  }
+  
+  .Form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  input{
+border-radius: 10px;
+margin-top: 10px;
+margin-left: 5px;
+  }
+
+  .showFinal {
+    background-color: rgba(240, 198, 143, 0.815);
+    margin-top: 24px;
+    margin-left: 80px;
+    padding-left: 10px;
+    background-color: 0 0 5px rgb(186, 176, 176);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    transition: all 0.35s ease-in;
+    width: 50%;
+    border-radius: 15px;
+  }
+  
+  .submit {
+    border-radius: 10px;
+    background-color: rgba(40, 40, 237, 0.68);
+    color: white;
+    margin-right: 33px;
+    margin-top: 10px;
+  }
