@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/letters.jpg);
+    background-image: url(../images/lights.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -79,10 +79,11 @@ margin-left: 5px;
     margin-top: 10px;
   }
 
-  .reload{
+  .reload {
     border-radius: 10px;
     background-color: rgba(40, 40, 237, 0.68);
     color: white;
     margin-right: 33px;
-    margin-top: 10px; 
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
