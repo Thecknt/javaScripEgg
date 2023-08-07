@@ -1,0 +1,77 @@
+body{
+    background-image: url(../images/reflexion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.statement{
+    align-items: end;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    width: 57%;
+    flex-direction: row;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.phrase{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 70px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    width: 40%;
+    margin-left: auto;
+    margin-top: 35px;
+    border-radius: 15px;
+    padding: 27px;
+}
+
+input{
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 9px;
+}
+
+.showFinal {
+    background-image: url(../images/resolutivo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: bottom;
+   position: absolute;
+    margin: 0;
+    width: 100vw; /* Asegurarse de que la imagen cubra toda la pantalla */
+    height: 100vh;
+    z-index: 1; /* Establecer un z-index más alto para mostrar encima del body */
+    padding: 0; /* Asegurarse de que no haya relleno */
+  }
+
+  .resolve{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    align-items: center;
+    margin: auto;
+    margin-bottom: 45%;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: darkgreen;
+  }
+
+  .submit {
+    border-radius: 10px;
+    background-color: rgba(40, 40, 237, 0.68);
+    color: white;
+    margin-right: 33px;
+    margin-top: 10px;
+  }
+
+  .spaces{
+    margin-left: 52px;
+    margin-right: 35px;
+  }
