@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ejercicio13.css">
+    <title>Ejercicio 13</title>
+</head>
+<body>
+    <section class="statement" style="display: flex;">
+        <h1>13. Crear un objeto persona, con las propiedades nombre, edad, sexo 
+            <br>
+            ('H' hombre, 'M' mujer, 
+            'O' otro), peso y altura. 
+            <br>
+            A continuación, muestre las propiedades del objeto JavaScript</h1>
+    </section>
+    <section class="data" id="data" style="display: flex;">
+        <div class="spaces">
+          <form action="#" class="Form" id="Form" style="display: flex">
+            <label for="data">
+              <span class="instrucction">
+                <strong>Ingrese sus datos por favor</strong>
+              </span>
+              <input
+                type="text"
+                id="names"
+                placeholder=" Ingrese su nombre "
+                required
+              />
+              <input
+                type="number"
+                id="age"
+                placeholder=" Ingrese su edad "
+                required
+              />
+              <input
+                type="text"
+                id="gender"
+                placeholder=" Sexo(H|M|O) "
+                required
+              />
+              <input
+                type="number"
+                id="weight"
+                placeholder=" Ingrese su peso "
+                required
+              />
+              <input
+                type="number"
+                id="height"
+                placeholder=" Ingrese su altura "
+                required
+              />
+            </label> 
+            <button type="submit" class="submit"> Guardar Datos </button>
+          </form>  
+        </div>
+
+      </section>
+      <section class="showFinal" id="showFinal" style="display: none;">
+    </section>
+    <script src="js/ejercicio13.js"></script>
+</body>
+</html>
