@@ -9,7 +9,7 @@ body{
     padding: 15px;
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 50%;
     font-size: smaller;
     margin-left: 50px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
@@ -63,9 +63,6 @@ body{
       }
 
       .submit {
-        border-radius: 10px;
-        background-color: rgba(40, 40, 237, 0.68);
-        color: white;
         margin-right: 33px;
         margin-top: 10px;
       }

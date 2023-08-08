@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/egg.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/ejercicio14.css">
+    <title>Ejercicio 14</title>
+</head>
+<body>
+    <section class="statement" style="display: flex;">
+       <h1> 14.<img src="images/libro.png" alt="book" srcset="" style="height: 25px; width: 25px;"> Crear un objeto libro  que contenga las siguientes propiedades: 
+            <br>ISBN, Título, Autor, Número de páginas. 
+            <br>Crear un método para cargar un libro pidiendo los datos al usuario
+            <br>y luego informar mediante otro método 
+            <br>el número de ISBN, el título, el autor del libro y el numero de páginas.</h1>
+    </section>
+    <section class="data" id="data" style="display: flex;">
+        <div class="spaces">
+          <form action="#" class="Form" id="Form" style="display: flex">
+            <label for="data">
+              <span class="instrucction">
+                <strong>Ingrese sus datos del libro</strong>
+              </span>
+              <input
+                type="number"
+                id="isbn"
+                placeholder=" Ingrese el ISBN "
+                required
+              />
+              <input
+                type="text"
+                id="names"
+                placeholder=" Ingrese el Título "
+                required
+              />
+              <input
+                type="text"
+                id="Author"
+                placeholder=" Ingrese el Autor"
+                required
+              />
+              <input
+                type="number"
+                id="pages"
+                placeholder="numero de paginas"
+                required
+              />
+            </label> 
+            <button type="submit" class="submit"> <img src="images/salvar.png" alt="Guardar" srcset=""> </button>
+          </form>  
+        </div>
+
+      </section>
+      <section class="showFinal" id="showFinal" style="display: none;">
+    </section>
+    <script src="js/ejercicio14.js"></script>
+</body>
+</html>
