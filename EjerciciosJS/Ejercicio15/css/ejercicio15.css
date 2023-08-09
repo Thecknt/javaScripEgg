@@ -1,0 +1,93 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.statement {
+    background-color: rgba(250, 235, 215, 0.169);
+    padding: 15px;
+    background-image: url(../images/leter.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    font-size: x-small;
+    margin-left: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    transition: all 0.35s ease-in;
+    border-radius: 15px;
+    color: beige;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  }
+
+  .instruction {
+    display: flex;
+    text-align: center;
+    padding-bottom: 18px;
+    padding-right: 44px;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+  .data {
+    background-image: url(../images/leter.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.169);
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    width: 18%;
+    margin-left: 30px;
+    border-radius: 15px;
+  }
+
+  .Form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -17px;
+  }
+
+  input{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+      }
+
+      .showFinal {
+        background-color: rgba(240, 198, 143, 0.815);
+        margin-top: 24px;
+        margin-left: 80px;
+        padding-left: 10px;
+        background-color: 0 0 5px rgb(186, 176, 176);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+        transition: all 0.35s ease-in;
+        width: 46%;
+        border-radius: 15px;
+      }
+
+      .submit {
+        border-radius: 10px;
+        background-color: rgba(40, 40, 237, 0.68);
+        color: white;
+        margin-right: 33px;
+        margin-top: 10px;
+      }
+
+      .resolve{
+      width: 40%;
+      }
+      p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: rgba(0, 115, 2, 0.648); 
+       text-shadow:0 0.9 black;
+      }
