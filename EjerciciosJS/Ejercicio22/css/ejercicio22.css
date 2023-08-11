@@ -1,0 +1,43 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+}
+  .statement {
+    background-color: rgba(0, 0, 0, 0.871);
+    padding: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    font-size: medium;
+    margin-left: 17%;
+    margin-top: 1%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    transition: all 0.35s ease-in;
+    border-radius: 15px;
+    color: beige;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  }
+
+  .showFinal {
+    background-color: rgba(0, 0, 0, 0.488);
+    padding: 50px;
+    margin-top: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    font-size:medium;
+    margin-left: 40%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    transition: all 0.35s ease-in;
+    border-radius: 15px;
+    color: rgb(9, 9, 3);
+ 
+  }
